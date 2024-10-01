@@ -6,7 +6,7 @@ ng add @angular-eslint/schematics
 ng g @angular-eslint/schematics:convert-tslint-to-eslint
 ```
 
-### opcional desinstala si lo tienes instalado para evitar Error: The `convert-tslint-to-eslint` schematic is no longer supported
+### opcional desinstala si lo tienes instalado para evitar Error: The `convert-tslint-to-eslint` schematic is no longer supported y vuele al paso anterior
  ```bash
 npm uninstall tslint
 ```
