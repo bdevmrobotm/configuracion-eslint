@@ -1,4 +1,6 @@
- ### Install Angular ESLint
+### For CNS
+
+### Install Angular ESLint
  ```bash
 ng add @angular-eslint/schematics
 ng g @angular-eslint/schematics:convert-tslint-to-eslint
