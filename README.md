@@ -1,10 +1,13 @@
  ### Install Angular ESLint
-`ng add @angular-eslint/schematics`
-
+ ```bash
+ng add @angular-eslint/schematics
+ng g @angular-eslint/schematics:convert-tslint-to-eslint
+```
 
 ### Install Prettier and Prettier-ESLint dependencies
-`npm i prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier -D`
-
+```bash
+npm i prettier prettier-eslint eslint-config-prettier eslint-plugin-prettier -D
+```
 
 ### ESLint configuration configura en tu en eslint.config.js -> rules @typescript-eslint/member-ordering
 Filename: `eslint.config.js`
